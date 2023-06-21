@@ -1,38 +1,67 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: blueviolet;
   color: white;
+  height: 100vh;
 }
-
-.App-link {
-  color: #61dafb;
+.nav-bar{
+  background-color: peachpuff;
+  padding: 20px 5px;
+  color: black;
+  font-weight: bold;
 }
+.nav-item{
+  padding: 10px 30px;
+  text-transform: uppercase;
+  font-size: 16px;
+  text-decoration: none;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+Link{
+  text-decoration: none;
+}
+.nav-item:hover{
+  text-decoration: underline;
+}
+.homepage-btn{
+  background-color: peachpuff;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 600;
+}
+.calc-body{
+  height: auto;
+  width: 300px;
+  background-color: rgb(43, 39, 39);
+  margin: 0 auto;
+  border-radius: 20px;
+  padding: 15px 25px;
+}
+.calc-body input{
+  margin: 10px auto;
+  width: 90%;
+  border: 0;
+  padding: 20px 10px;
+  color: black;
+  background-color: peachpuff;
+  font-weight: bold;
+}
+.calc-body button{
+  border: 0 solid blueviolet;
+  background-color: white;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 20px 0;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: blueviolet;
+
+}
+.operate-btn{
+  width: 40%;
+}
+.calc-body .reset-btn{
+  width: 90%;
+  padding: 10px 0;
 }
